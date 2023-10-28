@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnam Travel</title>
+    <link rel="stylesheet" href="country.css">
+    <link rel="icon" href="globeicon.jpg" type="image/x-icon">
+
+</head>
+<body>
+
+<header>
+    <h1>Vietnam Travel</h1>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+
+    <div class="dropdown">
+        <a class="dropbtn">Countries</a>
+        <div class="dropdown-content">
+            <a href="vietnam.html">Vietnam</a>
+            <a href="thailand.html">Thailand</a>
+            <!-- Add more countries as needed -->
+        </div>
+    </div>
+
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+    <img src="vietnamlandscape.avif" alt="Vietnam Landscape" class="top-image">
+
+    <h1>Welcome to Vietnam!</h1>
+
+    <p>
+        Vietnam is a beautiful country located in Southeast Asia. It is known for its stunning landscapes,
+        rich history, and vibrant culture. Whether you're interested in exploring bustling cities, relaxing
+        on picturesque beaches, or discovering ancient temples, Vietnam has something for everyone.
+    </p>
+
+    <h2>About Vietnam:</h2>
+    <ul>
+        <li>Capital City: Hanoi</li>
+        <li>Population: Approximately 97 million</li>
+        <li>Climate: Varied, with a tropical monsoon climate in the south and a more temperate climate in the north.</li>
+    </ul>
+
+    <div class="factContainer">
+    <p>Click on an image to discover more about Vietnam:</p>
+    
+   <div class="button-container">
+        <button class="factButton" onclick="revealFact('fact1')">
+            <img src="vietnamcoffee.jpg" alt="Fact 1">
+            <p id="fact1" class="hiddenFact">Coffee rules!
+                Vietnam is the world’s second largest coffee-producing nation after Brazil, producing 16% of the world’s total coffee (Brazil’s is 40%). I found the coffee in Vietnam incredibly tasty, cheap, and the iced version is a refreshing drink to cool you down during the warm, humid months.</p>
+        </button>
+        <button class="factButton" onclick="revealFact('fact2')">
+            <img src="vietnamcave.jpg" alt="Fact 2">
+            <p id="fact2" class="hiddenFact">Vietnam has the world’s largest cave!
+                The cave, Son Doong, was discovered in 1991 in the Phong Nha-Kẻ Bàng National Park, near the Laos border. It measures more than 5 kilometers (3 miles) in length, and is 200 meters (656 feet) high and 150 meters (492 feet) wide. It also has a 60-meter-high calcite wall inside renown as “The Great Wall of Vietnam”.</p>
+        </button>
+        <button class="factButton" onclick="revealFact('fact3')">
+            <img src="vietnambikes.jpg" alt="Fact 3">
+            <p id="fact3" class="hiddenFact">Motorbikes rule in Vietnam!
+                In 2013, Vietnam had 37 million registered motorbikes, compared to just two million registered cars. Generally, only the wealthy own cars. Vehicle taxes are so high (100 to 200 percent) that motorbikes and other alternatives to cars are appealing.</p>
+        </button>
+        <button class="factButton" onclick="revealFact('fact4')">
+            <img src="vietnamlanguage.jpg" alt="Fact 4">
+            <p id="fact4" class="hiddenFact">The national language is Vietnamese!
+                Close to 80 million people speak the Vietnamese language in Vietnam, and millions more speak it throughout Asia. Vietnamese is also widely spoken in Vietnamese communities in far distant countries like Canada, Czech Republic, and the United States. In fact, the U.S. has more than one million Vietnamese speakers. In Vietnam, English to Vietnamese document translations are often required by law firms and corporations. </p>
+        </button>
+    </div>
+
+    <h2>Blog Posts</h2>
+
+    <div class="blog-post">
+        <h3><a href="#post1">Exploring Hanoi</a></h3>
+        <p>Discover the charm of Vietnam's capital city, Hanoi, with its historic landmarks and vibrant street life.</p>
+    </div>
+
+    <div class="blog-post">
+        <h3><a href="#post2">Relaxing on Ha Long Bay</a></h3>
+        <p>Explore the breathtaking beauty of Ha Long Bay, known for its emerald waters and thousands of limestone karsts.</p>
+    </div>
+
+</section>
+
+<script>
+    function revealFact(factId) {
+        var hiddenFactElement = document.getElementById(factId);
+        hiddenFactElement.style.display = 'block';
+    }
+</script>
+
+<footer>
+    &copy; 2023 All Around The World. All rights reserved.
+</footer>
+
+</body>
+</html>
