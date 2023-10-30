@@ -21,3 +21,6 @@ $(document).ready(function(){
     $(".turkey-txt").fadeIn(300);
   });
 });
+
+
+

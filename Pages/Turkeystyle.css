@@ -1,0 +1,101 @@
+h1 {
+
+    color: darkred;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    text-align: center;
+
+}
+
+
+
+
+h2  {
+
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+p {
+
+font-family: 'Courier New', Courier, monospace;
+
+font-size: medium;
+
+}
+
+img {
+
+border: 2px solid #000;
+
+}
+
+
+li {
+
+
+font-size: large;
+
+font-weight: bold;
+
+}
+
+body {
+
+background-color: aliceblue;
+
+line-height: 1.5;
+
+
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: teal;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  
+  .nav-links {
+  
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+  
+  }
+  
+  
+  .nav-links li {
+  
+    list-style: none;
+  }
+  
+  
+  .heading {
+  
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+  
+  .nav-links a {
+  
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 14px 16px;
+  }
+  
+  .nav-links li a.active {
+    background-color: transparent;
+  }
+  
